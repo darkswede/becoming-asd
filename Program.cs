@@ -1,12 +1,13 @@
-﻿using System;
+﻿using becoming_asd.Models;
 
 namespace becoming_asd
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Order order = new Order(1, 199);
+            User user = new User("user@email.com", "secret");
         }
     }
 }
