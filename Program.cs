@@ -6,8 +6,8 @@ namespace becoming_asd
     {
         public static void Main(string[] args)
         {
-            Order order = new Order(1, 199);
-            User user = new User("user@email.com", "secret");
+            Race race = new Race();
+            race.Begin();
         }
     }
 }

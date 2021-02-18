@@ -1,0 +1,13 @@
+C:\Users\marcin.pietrucha\source\repos\becoming asd\bin\Debug\netcoreapp3.1\becoming asd.exe
+C:\Users\marcin.pietrucha\source\repos\becoming asd\bin\Debug\netcoreapp3.1\becoming asd.deps.json
+C:\Users\marcin.pietrucha\source\repos\becoming asd\bin\Debug\netcoreapp3.1\becoming asd.runtimeconfig.json
+C:\Users\marcin.pietrucha\source\repos\becoming asd\bin\Debug\netcoreapp3.1\becoming asd.runtimeconfig.dev.json
+C:\Users\marcin.pietrucha\source\repos\becoming asd\bin\Debug\netcoreapp3.1\becoming asd.dll
+C:\Users\marcin.pietrucha\source\repos\becoming asd\bin\Debug\netcoreapp3.1\becoming asd.pdb
+C:\Users\marcin.pietrucha\source\repos\becoming asd\obj\Debug\netcoreapp3.1\becoming asd.csprojAssemblyReference.cache
+C:\Users\marcin.pietrucha\source\repos\becoming asd\obj\Debug\netcoreapp3.1\becoming asd.AssemblyInfoInputs.cache
+C:\Users\marcin.pietrucha\source\repos\becoming asd\obj\Debug\netcoreapp3.1\becoming asd.AssemblyInfo.cs
+C:\Users\marcin.pietrucha\source\repos\becoming asd\obj\Debug\netcoreapp3.1\becoming asd.csproj.CoreCompileInputs.cache
+C:\Users\marcin.pietrucha\source\repos\becoming asd\obj\Debug\netcoreapp3.1\becoming asd.dll
+C:\Users\marcin.pietrucha\source\repos\becoming asd\obj\Debug\netcoreapp3.1\becoming asd.pdb
+C:\Users\marcin.pietrucha\source\repos\becoming asd\obj\Debug\netcoreapp3.1\becoming asd.genruntimeconfig.cache
