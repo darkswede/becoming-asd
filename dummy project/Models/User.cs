@@ -1,9 +1,11 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace becoming_asd.Models
 {
     public class User
     {
+        private ISet<Order> _orders = new HashSet<Order>();
         public string Email { get; private set; }
         public string Password { get; private set; }
         public string FirstName { get; set; }
@@ -12,6 +14,7 @@ namespace becoming_asd.Models
         public bool IsActive { get; private set; }
         public DateTime UpdateAt { get; private set; }
         public decimal Funds { get; private set; }
+        public IEnumerable<Order> Orders { get { return _orders; } }
 
         public User(string email, string password)
         {
@@ -115,6 +118,7 @@ namespace becoming_asd.Models
 
             order.Purchase();
             Funds -= orderPrice;
+            _orders.Add(order);
             Update();
         }
 

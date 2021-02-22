@@ -58,14 +58,19 @@ namespace becoming_asd.Models
             Speed += 80;
             Console.WriteLine($"Running at: {Speed} km/h ");
         }
+
+        public void DisplayInfo()
+        {
+            Console.WriteLine("im displaying");
+        }
     }
 
     public class Race
     {
         public void Begin()
         {
-            SportCar sportCar = new SportCar();
-            Truck truck = new Truck();
+            Car sportCar = new SportCar();
+            Car truck = new Truck();
 
             List<Car> cars = new List<Car>
             {
@@ -77,6 +82,33 @@ namespace becoming_asd.Models
                 car.Start();
                 car.Accelerate();
                 car.Boost();
+            }
+        }
+
+        public void Casting()
+        {
+            Car sportCar = new SportCar();
+            Car truck = new Truck();
+
+            /*realSportCar.DisplayInfo(); nie da sie 
+
+            SportCar realSportCar = (SportCar) sportCar;
+            realSportCar.DisplayInfo();po rzutowaniu, mozna normalnie uzywac --- downcasting
+
+            Car realCar = (Car) realSportCar;  upcasting --- brak zgodnosci typow albo null i sie posypie apka
+            
+
+            bool isSportCar = sportCar is SportCar;
+            if (isSportCar)
+            {
+                ((SportCar)sportCar).DisplayInfo();
+            }
+            */
+
+            SportCar castedSportCar = sportCar as SportCar;
+            if (castedSportCar != null)
+            {
+                castedSportCar.DisplayInfo();
             }
         }
     }
